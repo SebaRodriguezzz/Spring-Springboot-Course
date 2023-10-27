@@ -1,19 +1,21 @@
-package io.datajek.spring.basics.movierecommendersystem.lesson13;
+package io.datajek.spring.basics.movierecommendersystem.lesson14;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
 @Component
 public class RecommenderImplementation {
 
+    @Autowired
+    @Qualifier("contentBasedFilter")
     private Filter filter;
 
-    @Autowired
-    public RecommenderImplementation(Filter filter) {
+    public Filter getFilter() {
+        return filter;
+    }
+    public void setFilter(Filter filter) {
         this.filter = filter;
-        System.out.println("Constructor invoked...");
     }
 
     public String[] recommendMovies(String movie){
@@ -21,5 +23,6 @@ public class RecommenderImplementation {
         String[] results = filter.getRecommendations(movie);
         return results;
     }
+
 
 }

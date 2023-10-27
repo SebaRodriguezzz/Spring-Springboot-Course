@@ -1,30 +1,31 @@
-package io.datajek.spring.basics.movierecommendersystem.lesson13;
+package io.datajek.spring.basics.movierecommendersystem.lesson14;
 
-import io.datajek.spring.basics.movierecommendersystem.lesson7.RecommenderImplementation2;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Arrays;
 
-@Configuration
-@ComponentScan
+
 public class MovieRecommenderSystemApplication {
 
 	public static void main(String[] args) {
-		AnnotationConfigApplicationContext appContext =
-				new AnnotationConfigApplicationContext(MovieRecommenderSystemApplication.class);
-		RecommenderImplementation recommender = appContext.getBean(RecommenderImplementation.class);
+		ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext(
+				"appContext.xml");
 
-		String[] result = recommender.recommendMovies("Finding Dory");
+		System.out.println("\nBeans loaded:");
+		System.out.println(Arrays.toString(appContext.getBeanDefinitionNames()));
 
-		System.out.println(Arrays.toString(result));
+
+		RecommenderImplementation recommender =
+				appContext.getBean("recommenderImpl", RecommenderImplementation.class);
+
+
+		System.out.println("\nDependency: " + recommender.getFilter());
+		System.out.println();
 
 		appContext.close();
-
 	}
 
 }
