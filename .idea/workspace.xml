@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10123131-3591-4257-9828-820d7b695480" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Spring course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommender-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson1/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson1/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson1/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson10/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson10/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson11/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson11/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson11/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson11/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson11/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson12/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson12/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson12/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson12/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson12/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson13/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson13/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson13/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson13/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson13/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson14/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson14/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson14/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson14/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson14/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson15/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson15/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson15/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson15/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson15/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson16/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson16/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson16/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson16/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson16/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson2/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson2/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson2/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson2/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson2/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson3/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson3/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson3/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson3/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson3/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson4/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson4/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson4/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson4/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson4/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson5/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson5/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson5/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson5/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson5/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson6/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson6/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson6/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson6/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson6/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson7/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson7/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson7/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson7/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson7/RecommenderImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson7/RecommenderImplementation2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson8/CollaborativeFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson8/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson8/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson8/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson9/ContentBasedFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson9/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson9/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/datajek/spring/basics/movierecommendersystem/lesson9/MovieRecommenderSystemApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/appContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/datajek/spring/basics/movierecommendersystem/MovieRecommenderSystemApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2XT6jbAhG7VX0QCZSsBsAYrl84U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/sebas/Descargas/Spring course",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10123131-3591-4257-9828-820d7b695480" name="Changes" comment="" />
+      <created>1698640858451</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698640858451</updated>
+      <workItem from="1698640859452" duration="596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
