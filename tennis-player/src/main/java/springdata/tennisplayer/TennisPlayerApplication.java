@@ -22,6 +22,6 @@ public class TennisPlayerApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		dao.createTournamentTable();
+		logger.info("French Players: {}", dao.getPlayerByNationality("France"));
 	}
 }
