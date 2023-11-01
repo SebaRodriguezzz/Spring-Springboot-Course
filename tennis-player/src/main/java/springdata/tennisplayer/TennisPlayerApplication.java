@@ -22,14 +22,8 @@ public class TennisPlayerApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		logger.info("Inserting Player 4: {}", dao.insertPlayer(
-				new Player(4, "Thiem", "Austria",
-						new Date(System.currentTimeMillis()), 17)));
+		logger.info("Deleting Player with Id 2: {}", dao.deletePlayerById(2));
+		logger.info("All Players Data: {}", dao.getAllPlayers());
 
-		logger.info("Updating Player with Id 4: {}",  dao.updatePlayer(
-				new Player(4, "Thiem", "Austria",
-						Date.valueOf("1993-09-03"), 17)));
-
-		logger.info("Players with Id 4: {}", dao.getPlayerById(4));
 	}
 }
