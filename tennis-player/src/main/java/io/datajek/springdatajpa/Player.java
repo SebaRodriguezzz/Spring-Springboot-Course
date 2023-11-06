@@ -1,13 +1,11 @@
 package io.datajek.springdatajpa;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 import java.util.Date;
 
 @Entity
+@NamedQuery(name = "get_all_players", query = "select p from Player p")
 public class Player {
     @Id
     @GeneratedValue

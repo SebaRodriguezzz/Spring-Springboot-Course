@@ -2,8 +2,11 @@ package io.datajek.springdatajpa;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Repository
 @Transactional
@@ -29,6 +32,12 @@ public class PlayerRepository {
     public void deleteById(int id){
         Player player = entityManager.find(Player.class, id);
         entityManager.remove(player);
+    }
+
+    public List<Player> getAllPlayers() {
+        TypedQuery<Player> getAll = entityManager.createNamedQuery(
+                "get_all_players", Player.class);
+        return getAll.getResultList();
     }
 
 }
