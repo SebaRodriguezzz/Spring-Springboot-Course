@@ -11,7 +11,7 @@ import springdata.tennisplayer.PlayerDao;
 import java.sql.Date;
 
 @SpringBootApplication
-public class TennisPlayerApplication implements CommandLineRunner {
+public class TennisPlayerApplication {
 
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -22,15 +22,5 @@ public class TennisPlayerApplication implements CommandLineRunner {
 		SpringApplication.run(TennisPlayerApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception {
-		logger.info("Inserting Player: {}", repo.insertPlayer(new Player(
-				"Djokovic", "Serbia", Date.valueOf("1987-05-22"), 81)));
-		logger.info("Inserting Player: {}", repo.insertPlayer(new Player(
-				"Monfils", "France", Date.valueOf("1986-09-01"), 10)));
-		logger.info("Inserting Player: {}", repo.insertPlayer(new Player(
-				"Thiem", "Austria", Date.valueOf("1993-09-03"), 17)));
-		logger.info("All Players Data: {}", repo.getAllPlayers());
-	}
 
 }
