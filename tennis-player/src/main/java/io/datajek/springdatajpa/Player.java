@@ -88,4 +88,5 @@ public class Player {
                 ", titles=" + titles +
                 '}';
     }
+
 }
