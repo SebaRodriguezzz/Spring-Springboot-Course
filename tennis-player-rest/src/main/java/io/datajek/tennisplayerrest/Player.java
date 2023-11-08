@@ -16,14 +16,14 @@ public class Player {
     private String name;
     private String nationality;
     @JsonFormat(pattern = "dd-MM-yyyy")
-    private Date birthday;
+    private Date birthDate;
     private int titles;
 
     public Player(){}
-    public Player(String name, String nationality, Date birthday, int titles) {
+    public Player(String name, String nationality, Date birthDate, int titles) {
         this.name = name;
         this.nationality = nationality;
-        this.birthday = birthday;
+        this.birthDate = birthDate;
         this.titles = titles;
     }
 
@@ -51,12 +51,12 @@ public class Player {
         this.nationality = nationality;
     }
 
-    public Date getBirthday() {
-        return birthday;
+    public Date getBirthDate() {
+        return birthDate;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setBirthDate(Date birthday) {
+        this.birthDate = birthday;
     }
 
     public int getTitles() {
