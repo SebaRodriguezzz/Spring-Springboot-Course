@@ -1,9 +1,7 @@
 package io.datajek.tennisplayerrest;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -26,5 +24,10 @@ public class PlayerController {
     @GetMapping("/players")
     public List<Player> players(){
         return service.getAllPlayers();
+    }
+
+    @PostMapping("/players")
+    public Player addPlayer(@RequestBody Player p){
+        return service.addPlayer(p);
     }
 }

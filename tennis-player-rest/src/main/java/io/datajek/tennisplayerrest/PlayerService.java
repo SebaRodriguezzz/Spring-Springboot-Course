@@ -29,4 +29,9 @@ public class PlayerService {
     public List<Player> getAllPlayers(){
         return repo.findAll();
     }
+
+    public Player addPlayer(Player p){
+        return repo.save(p);
+    }
+
 }
