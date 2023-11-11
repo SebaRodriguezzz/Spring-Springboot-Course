@@ -27,7 +27,13 @@ public class PlayerController {
     }
 
     @PostMapping("/players")
-    public Player addPlayer(@RequestBody Player p){
+    public Player addPlayer(@RequestBody Player p) {
         return service.addPlayer(p);
     }
+
+    @PutMapping("/players/{id}")
+    public Player updatePlayer(@PathVariable int id, @RequestBody Player p) {
+        return service.updatePlayer(id, p);
+    }
+
 }

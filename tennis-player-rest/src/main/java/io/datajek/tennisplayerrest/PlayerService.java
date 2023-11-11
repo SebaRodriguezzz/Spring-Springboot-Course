@@ -34,4 +34,14 @@ public class PlayerService {
         return repo.save(p);
     }
 
+    public Player updatePlayer(int id, Player p) {
+        Player player = repo.getOne(id);
+
+        player.setName(p.getName());
+        player.setNationality(p.getNationality());
+        player.setBirthDate(p.getBirthDate());
+        player.setTitles(p.getTitles());
+
+        return repo.save(player);
+    }
 }
