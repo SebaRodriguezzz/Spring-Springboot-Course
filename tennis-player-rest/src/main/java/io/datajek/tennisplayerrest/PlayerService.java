@@ -65,4 +65,13 @@ public class PlayerService {
     public void updateTitles(int id, int titles) {
         repo.updateTitles(id, titles);
     }
+
+    public String deletePlayer(int id) {
+        try {
+            repo.deleteById(id);
+        } catch (Exception e) {
+            throw new RuntimeException("Player with id " + id + " not found.");
+        }
+        return "Deleted player with id " + id + ".";
+    }
 }
