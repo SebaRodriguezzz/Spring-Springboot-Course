@@ -1,9 +1,7 @@
 package io.datajek.databaserelationships.onetoone;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import jakarta.persistence.*;
 
 @Entity
 public class PlayerProfile {
@@ -13,6 +11,9 @@ public class PlayerProfile {
     private int Id;
     private String twitter;
 
+    @OneToOne(mappedBy = "playerProfile")
+    @JsonBackReference
+    private Player player;
     public PlayerProfile() {
     }
 
@@ -34,6 +35,14 @@ public class PlayerProfile {
 
     public void setTwitter(String twitter) {
         this.twitter = twitter;
+    }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    public void setPlayer(Player player) {
+        this.player = player;
     }
 
     @Override

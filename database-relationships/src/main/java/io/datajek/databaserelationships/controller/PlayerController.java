@@ -1,11 +1,11 @@
-package io.datajek.databaserelationships.onetoone.controller;
+package io.datajek.databaserelationships.controller;
 
 import java.util.List;
 
 import io.datajek.databaserelationships.onetoone.Player;
 import io.datajek.databaserelationships.onetoone.PlayerProfile;
-import io.datajek.databaserelationships.onetoone.service.PlayerProfileService;
-import io.datajek.databaserelationships.onetoone.service.PlayerService;
+import io.datajek.databaserelationships.service.PlayerProfileService;
+import io.datajek.databaserelationships.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

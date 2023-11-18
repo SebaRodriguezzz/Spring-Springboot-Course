@@ -1,10 +1,10 @@
-package io.datajek.databaserelationships.onetoone.service;
+package io.datajek.databaserelationships.service;
 
 import java.util.List;
 
 import io.datajek.databaserelationships.onetoone.Player;
 import io.datajek.databaserelationships.onetoone.PlayerProfile;
-import io.datajek.databaserelationships.onetoone.repository.PlayerRepository;
+import io.datajek.databaserelationships.repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
