@@ -2,6 +2,7 @@ package io.datajek.databaserelationships.service;
 
 import java.util.List;
 
+import io.datajek.databaserelationships.onetomany.bi.Registration;
 import io.datajek.databaserelationships.onetoone.Player;
 import io.datajek.databaserelationships.onetoone.PlayerProfile;
 import io.datajek.databaserelationships.repository.PlayerRepository;
@@ -35,6 +36,18 @@ public class PlayerService {
     public Player assignProfile(int id, PlayerProfile profile) {
         Player player = repo.findById(id).get();
         player.setPlayerProfile(profile);
+        return repo.save(player);
+    }
+
+    public Player assignRegistration(int id, Registration registration) {
+        Player player = repo.findById(id).get();
+        player.registerPlayer(registration);
+        return repo.save(player);
+    }
+
+    public Player removeRegistration(int id, Registration registration) {
+        Player player = repo.findById(id).get();
+        player.removeRegistration(registration);
         return repo.save(player);
     }
 
