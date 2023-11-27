@@ -13,7 +13,7 @@ public class AccessCheckAspect {
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Before("execution(* io.datajek.springaop.movierecommenderaop.business.*.*(..))")
+    @Before("execution(* io.datajek.springaop.movierecommenderaop..*.*(..))")
     public void userAccess(JoinPoint joinPoint) {
         logger.info("Intercepted method call before execution: {}", joinPoint);
     }
