@@ -1,5 +1,6 @@
-package io.datajek.springaop.movierecommenderaop;
+package io.datajek.springaop.movierecommenderaop.business;
 
+import io.datajek.springaop.movierecommenderaop.data.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

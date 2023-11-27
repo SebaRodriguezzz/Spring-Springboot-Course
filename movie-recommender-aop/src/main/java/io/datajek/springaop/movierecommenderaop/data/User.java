@@ -1,4 +1,4 @@
-package io.datajek.springaop.movierecommenderaop;
+package io.datajek.springaop.movierecommenderaop.data;
 
 import org.springframework.stereotype.Repository;
 
