@@ -15,7 +15,7 @@ public class LoggingAspect {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @AfterReturning(
-            value = "execution(* io.datajek.springaop.movierecommenderaop.business.*.*(..))",
+            value = "io.datajek.springaop.movierecommenderaop.aspect.JoinPointConfig.dataLayerPointcut()",
             returning = "result")
     public void LogAfterExecution(JoinPoint joinPoint, Object result) {
         logger.info("Method {} returned with: {}", joinPoint, result);
